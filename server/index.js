@@ -11,7 +11,7 @@ const io = require('socket.io')(server, {
 
 app.use(cors({
     credentials: true,
-    origin: ['https://mlsa.unknownclub.me', 'http://localhost:3000', 'https://registrations-mlsa.vercel.app'],
+    origin: ['https://mlsa.unknownclub.me', 'http://localhost:3000', 'https://registrations-mlsa.vercel.app','https://mern-vc-szl54n0g6-adityasubham03.vercel.app'],
 }));
 
 app.get('/', (req, res) => {

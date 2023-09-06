@@ -4,7 +4,7 @@ import Peer from 'simple-peer';
 
 const SocketContext = createContext();
 
-const socket = io('http://localhost:5050/');
+const socket = io('https://mern-vc-szl54n0g6-adityasubham03.vercel.app/');
 
 const ContextProvider = ({ children }) => {
 
