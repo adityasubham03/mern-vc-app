@@ -4,7 +4,7 @@ import Peer from 'simple-peer';
 
 const SocketContext = createContext();
 
-const socket = io('https://mern-vc-szl54n0g6-adityasubham03.vercel.app/');
+const socket = io('https://walrus-app-xulsu.ondigitalocean.app/');
 
 const ContextProvider = ({ children }) => {
 
